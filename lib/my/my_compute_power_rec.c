@@ -5,7 +5,7 @@
 ** my_compute_power.c
 */
 
-int my_compute_power(int nb, int power)
+int my_compute_power_rec(int nb, int power)
 {
     return (0);
 }

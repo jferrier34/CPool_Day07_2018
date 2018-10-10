@@ -7,12 +7,5 @@
 
 int  my_putstr(char const *str)
 {
-    char i = *str;
-
-    while (i != '\0') {
-        i = *str;
-        my_putchar(i);
-        str = str + 1;
-    }
     return (0);
 }
