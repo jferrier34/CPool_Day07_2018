@@ -8,7 +8,7 @@
 int my_strlen(char *dest)
 {
     int n = 0;
-    
+
     while (dest[n] != '\0') {
         n = n + 1;
     }
@@ -20,7 +20,7 @@ char *my_strncat(char *dest, char const *src, int n)
     int i = 0;
     int j = 0;
     int length = my_strlen(dest);
-    
+
     while (dest[i] != '\0') {
         i++;
     }
